@@ -1,0 +1,22 @@
+{
+  "name": "chang-fastify-template",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "fastify": "^3.21.5",
+    "fastify-oracle": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "tap": "^15.0.10"
+  },
+  "scripts": {
+    "start": "node scripts/start",
+    "lint": "eslint --ext .js .",
+    "test": "tap --ts --reporter=spec --no-check-coverage --no-coverage"
+  }
+}
